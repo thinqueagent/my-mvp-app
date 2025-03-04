@@ -1,0 +1,47 @@
+Enhance AI Parsing for Brand Voice Extraction
+Modify the AI’s parsing capabilities to extract key brand elements from websites, brand guidelines, and uploaded documents.
+
+1️⃣ Brand Identity & Core Messaging
+Mission Statement: Extract the company’s purpose and vision.
+Brand Values: Identify core principles (e.g., sustainability, innovation, humor, inclusivity).
+Taglines & Slogans: Detect signature phrases that define brand positioning.
+About Us/Company Story: Summarize how the brand describes itself.
+2️⃣ Brand Voice & Personality
+Tone of Voice: Categorize (e.g., professional, playful, authoritative, empathetic).
+Formality Level: Detect casual vs. corporate language.
+Use of Humor: Identify if humor, sarcasm, or wordplay is present.
+Directness vs. Storytelling: Analyze if messaging is short & punchy or long-form.
+Sentence Structure: Determine if sentences are concise or expressive.
+3️⃣ Linguistic Patterns & Word Choice
+Preferred Words & Phrases: Identify brand-specific terms or jargon.
+Avoided Words: Detect words that don’t align with brand identity.
+Contractions & Style: Check if the brand favors “you’re” over “you are.”
+Inclusive Language: Determine if gender-neutral/inclusive terms are used.
+4️⃣ Visual & Formatting Elements (If Extracted from Docs)
+Typography Preferences: Detect uppercase, lowercase, or sentence case branding.
+Punctuation Style: Identify use of exclamation points, ellipses, or dashes.
+Hashtags & Keywords: Extract common hashtags used in social content.
+5️⃣ Content Style Across Different Channels
+Website Copy: Identify how the brand describes products/services.
+Social Media Posts: Analyze engagement tone (conversational, promotional, informative).
+Email & Newsletters: Detect whether emails are structured formally or personally.
+Ad Copy: Analyze if ads are bold & direct or more subtle & sophisticated.
+6️⃣ Customer Engagement & Response Style
+Social Media Replies: Analyze if responses are friendly, professional, or humorous.
+Customer Service Communication: Detect if it’s apologetic, solution-driven, or informal.
+Call-to-Action (CTAs): Identify common verbs & phrasing (e.g., “Sign up now!” vs. “Learn more”).
+7️⃣ Competitor & Industry Benchmarking (Optional but Helpful)
+Compare tone to competitors – Identify key differentiators.
+Detect brand uniqueness – Highlight areas where the brand voice stands out.
+8️⃣ Sentiment & Emotional Tone Analysis
+Emotional Weight: Determine if messaging is inspirational, authoritative, fun, etc.
+Excitement Level: Detect if language is high-energy or calm and measured.
+Persuasion Style: Identify urgency-based (“Act now!”) vs. informative messaging.
+Crisis Communication Tone: Analyze how the brand handles negative feedback.
+9️⃣ AI-Usability Enhancements (Structuring Data for AI Use)
+Extract Key Sentence Structures & Phrases – Detect common sentence patterns.
+Summarize Brand Voice in AI-Readable Format – Example: “The brand speaks in a confident, playful tone with short, witty sentences.”
+Generate Example Content Based on Extraction – AI should create sample captions, email intros, and ad copy based on patterns.
+🔟 Multimodal Parsing (If Applicable)
+Image & Video Analysis: Detect common visual themes in brand content.
+Emoji & Symbol Usage: Identify if emojis, arrows (→), or emphasis formatting are commonly used.

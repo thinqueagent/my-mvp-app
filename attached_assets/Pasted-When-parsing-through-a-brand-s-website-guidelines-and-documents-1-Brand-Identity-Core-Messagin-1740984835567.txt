@@ -1,0 +1,39 @@
+When parsing through a brand's website, guidelines, and documents:
+1. Brand Identity & Core Messaging
+Brand mission statement: What is the company’s purpose and vision?
+Brand values: Core principles that define the company (e.g., sustainability, innovation, luxury, humor, inclusivity).
+Taglines and slogans: Signature phrases that define the brand’s unique positioning.
+About Us/Company Story: The way the company describes itself and its origins.
+2. Brand Voice & Personality
+Tone of Voice: Is it professional, casual, playful, authoritative, empathetic, bold, etc.?
+Formality Level: Does the brand use casual/slang terms, or is it formal and corporate?
+Use of Humor: Does the brand use jokes, sarcasm, or wordplay?
+Directness vs. Storytelling: Does the brand use short, punchy messaging or long-form storytelling?
+Sentence Structure: Are sentences concise and to the point, or more elaborate and expressive?
+3. Linguistic Patterns & Word Choice
+Preferred words & phrases: Does the brand use specific industry jargon or branded terms?
+Avoided words: Words that go against the brand identity (e.g., “cheap” for a luxury brand).
+Use of contractions: Does the brand favor “you’re” over “you are” for a friendly tone?
+Inclusive language: Does the brand use gender-neutral or inclusive language?
+4. Visual & Formatting Elements (If Extracted from Brand Docs)
+Typography preferences: Does the brand favor uppercase, lowercase, or sentence case for branding?
+Punctuation style: Use of exclamation points, emojis, ellipses, or dashes.
+Hashtags & Keywords: What common hashtags does the brand use in social posts?
+5. Content Style Across Different Channels
+Website Copy: How does the brand describe its products/services?
+Social Media Posts: What type of engagement tone does it use? Conversational, promotional, informative?
+Email & Newsletters: Are emails structured formally or in a personal, friendly way?
+Ad Copy: Are ads bold and direct, or more subtle and sophisticated?
+6. Customer Engagement & Response Style
+Social Media Replies: How does the brand respond to comments? (Friendly, professional, humorous, personal?)
+Customer Service Communication: Is it apologetic, solution-driven, or informal?
+CTAs (Call to Actions): What verbs and phrasing are used in CTAs? (e.g., “Sign up now!” vs. “Learn more”)
+7. Competitor & Industry Benchmarking (Optional but Helpful)
+How does this brand’s tone compare to competitors?
+Are there key differentiators that make their voice unique in their space?
+Next Steps:
+Should the AI automatically generate a draft brand tone summary based on this data, or should human users refine the results?
+Should there be an interactive questionnaire to fine-tune the understanding of tone preferences based on brand input?
+Should the agent provide a confidence score on how well it understands a brand’s voice based on available content?
+Let me know if you’d like any of these areas expanded or tailored to your specific needs!
+

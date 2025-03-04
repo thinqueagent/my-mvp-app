@@ -1,0 +1,71 @@
+Recommended Integration of Document Upload During Brand Guidelines Onboarding
+Context & Goal
+We want to give users a seamless way to provide existing brand materials (like PDFs or sample content) while they’re setting up their Brand Guidelines in our AI-powered social media management platform. At the same time, we also need a permanent option for future uploads or revisions.
+
+1. Onboarding Wizard: “Do You Have Existing Guidelines?”
+Where It Fits
+During the brand guidelines onboarding (the Q&A or chat-based flow where users define brand tone, audience, etc.).
+How It Works
+Wizard Prompt:
+After asking the essential brand questions (tone scale, brand values, etc.), the system asks:
+“Do you have existing brand guidelines or sample brand content you’d like to upload?”
+If User Selects “Yes”:
+Present a file-upload interface (e.g., “Upload your PDF, DOC, or image files”).
+AI Parsing: Once uploaded, the system immediately extracts relevant data (e.g., brand voice descriptors, key phrases) and merges it with the user’s typed answers.
+If User Selects “No” or “Skip”:
+They simply continue through the wizard.
+They’ll still be able to upload documents later on the Brand Guidelines page (see below).
+Benefit:
+
+Allows users who already have formal brand guidelines to incorporate them right away without forcing them to re-enter everything.
+Ensures the AI’s initial brand guidelines output is as robust as possible.
+2. Brand Guidelines Page: “Upload Guidelines” Button
+Where It Fits
+Inside the dedicated Brand Guidelines section (which might show the AI-generated guidelines or be empty if not set up yet).
+How It Works
+Upload Button:
+Display a clear “Upload Guidelines” or “Upload Documents” button at the top (or near “Create Guidelines”).
+Document Parsing & Merge:
+If the user uploads a new file, the system again extracts brand voice data and updates the existing guidelines.
+If the user had no guidelines before, this step effectively “creates” them.
+Versioning / Confirmation (Optional):
+Show a diff or a summary of new findings, and let the user confirm or tweak any newly added brand voice attributes.
+Benefit:
+
+Users can come back anytime (weeks or months later) if they discover a new brand doc or update their style guide.
+Maintains a single, permanent home for brand voice info, ensuring ongoing refinement.
+3. Why This Hybrid Approach Is Best
+Seamless Onboarding Experience
+
+No extra steps for users who have docs ready during initial setup—they can integrate them immediately.
+No confusion for users who skip; they can keep going and still see an upload option later.
+Intuitive “One-Stop” Brand Guidelines Page
+
+The Upload feature is always there for updates.
+Ensures brand guidelines remain a living document that can adapt over time.
+Maximizes AI Utility
+
+The AI can parse brand docs early for a more accurate first pass.
+Users can refine or expand guidelines later without re-running the entire wizard.
+Implementation Tips
+Wizard Flow:
+
+Keep the question about existing docs near the end of the brand Q&A, so the user has a chance to fill in basic info first.
+Use a “Yes/No” or “Skip” approach to keep it simple.
+Document Parsing:
+
+Summarize key extracted points for the user to confirm or edit before finalizing.
+Possibly highlight any new brand rules or disclaimers the AI found.
+User Interface:
+
+Show a success message: “We’ve updated your Brand Guidelines based on your upload!”
+If conflicts arise between user’s typed answers and the doc, either prompt for resolution or default to user input.
+Ongoing Refinement:
+
+Encourage the user to revisit the Brand Guidelines page if they want to merge new doc data or adjust tone after testing content performance.
+Conclusion
+By offering the document upload option in both the onboarding wizard and the Brand Guidelines page, you deliver a flexible yet straightforward user journey:
+
+New Clients can integrate existing brand docs right away for more accurate AI-generated guidelines.
+Returning or Evolving Brands can upload new or revised docs at any time, ensuring the brand voice remains updated and consistent.
+This hybrid approach aligns with a user-friendly, Apple-like interface philosophy—intuitive, minimal friction, and ready to adapt whenever the brand’s voice or assets change.

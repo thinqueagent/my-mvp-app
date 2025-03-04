@@ -1,0 +1,17 @@
+As a follow-up to my previous request about improving AI’s extraction accuracy, I’ve identified a UX issue that needs to be fixed. Currently, the AI overwhelms users by displaying all missing fields at once instead of guiding them through a logical step-by-step process. This creates a poor user experience, especially when AI fails to extract key brand details.
+
+Detailed Breakdown of Fixes
+1️⃣ AI Should Show What It Found First
+💬 AI: "Here’s what I found in your document:" ✅ Brand Mission: [Extracted Text] ✅ Brand Values: [Extracted Text] (If AI is unsure, it suggests options) ✅ Brand Voice: [Extracted Text]
+✅ Implementation Note for Devs: Before showing any "missing data" prompts, AI must first display the extracted data in a structured way. If AI is unsure, it should suggest likely matches instead of defaulting to blank fields.
+
+2️⃣ If AI is Uncertain, It Should Ask for Clarification One Question at a Time
+💬 AI: "Some details weren’t explicitly labeled. Here’s what I inferred based on your document. You can confirm or adjust as needed."
+⬜ Brand Values (Only If Unclear): 💬 "I found references to Confidence, Self-Expression, and Inclusivity. Do these reflect your brand’s values?" [Yes, Looks Good] [Edit]
+⬜ Brand Voice (Only If Unclear): 💬 "Your document frequently uses words like ‘Bold’ and ‘Empower.’ I’d categorize your brand voice as ‘Confident, Empowering, and Body-Positive.’ Does that match?" [Yes, Looks Good] [Edit]
+✅ Implementation Note for Devs: AI should only show one refinement prompt at a time. Once the user confirms or edits one section, then the next refinement prompt should appear.
+
+3️⃣ If AI is Completely Uncertain, THEN It Should Ask for Manual Input
+💬 AI: "I wasn’t able to detect clear brand values. Would you like to enter them manually or take a brand exercise to refine them?" [Enter Values] [Take Brand Exercise]
+💬 AI: "I couldn’t determine your brand voice. Would you describe it as professional, playful, bold, or something else?" [Describe Voice] [Skip for Now]
+✅ Implementation Note for Devs: If AI still cannot infer brand values or voice, it should guide users with leading questions instead of presenting a blank field.

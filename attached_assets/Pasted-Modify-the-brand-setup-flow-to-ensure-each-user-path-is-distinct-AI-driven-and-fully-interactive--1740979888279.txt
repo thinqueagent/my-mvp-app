@@ -1,0 +1,38 @@
+Modify the brand setup flow to ensure each user path is distinct, AI-driven, and fully interactive.
+
+🔹 **1️⃣ Define My Brand Voice (For Users Without Guidelines)**  
+   - Instead of leading to the document upload page, this option should guide users through an AI-driven, **question-based brand identity builder**.  
+   - AI should ask dynamic questions such as:  
+     - "What’s your brand’s personality? (Playful, Professional, Bold, etc.)"  
+     - "Which social media platforms do you focus on?"  
+     - "Do you use emojis, humor, or slang?"  
+     - "How formal should your tone be?"  
+   - At the end, AI should generate:  
+     - A **summary of the brand’s tone, voice, and style**.  
+     - **4 AI-generated sample captions** that match their brand identity.  
+     - A **confidence score** indicating how well AI understands their brand.  
+   - Users can confirm, refine, or regenerate options before saving.
+
+🔹 **2️⃣ Upload My Brand Guidelines Instead (For Users with Docs or Websites)**  
+   - **Keep the existing setup page** (Upload Document, Analyze Website, Start Fresh).  
+   - After uploading, AI should **extract brand details**, including:  
+     - Brand mission, values, tone, and common phrases.  
+     - Social media platform preferences.  
+     - Any hashtags, key terms, or banned words.  
+   - If AI **detects missing information**, it should dynamically ask follow-up questions (similar to "Define My Brand Voice").  
+   - Once complete, AI should:  
+     - Show an **extracted summary of brand details**.  
+     - Allow users to edit/refine if needed.  
+     - Provide **sample captions based on the extracted brand voice**.  
+
+🔹 **3️⃣ AI Confidence Scoring & Content Testing**  
+   - After brand setup, AI should assign a **confidence score (1-100)** on how well it understands the brand.  
+   - If the confidence is **below 80%**, AI should:  
+     - Offer a **refinement step** (“Make it more [Playful | Professional | Concise]”).  
+     - Highlight **what’s unclear and needs adjusting**.  
+
+### **Expected Outcome**  
+✅ Users without brand guidelines **get an interactive AI-driven brand builder**.  
+✅ Users with brand guidelines **can quickly upload, refine, and confirm AI's understanding**.  
+✅ AI-generated captions are **immediately available** based on brand inputs.  
+✅ AI confidence scoring ensures **more accurate content before posting**.  

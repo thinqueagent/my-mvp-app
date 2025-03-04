@@ -1,0 +1,128 @@
+1. Content Manager Dashboard
+Upon entering the Content Manager, users are greeted with a clean, intuitive dashboard displaying:
+
+A prominent "Create New Post" button
+
+A calendar view of scheduled posts
+
+A list of recent drafts
+
+Quick access to the media library
+
+2. Create New Post Flow
+When clicking "Create New Post", users enter a streamlined content creation process:
+
+Platform Selection:
+
+Users choose which social media platforms to post on (e.g., Instagram, Twitter, LinkedIn)
+
+The interface adapts to show platform-specific features and limitations
+
+Content Type:
+
+Options for text-only, image, video, or multi-image post
+
+If selecting image/video, prompt to upload or select from the media library
+
+AI-Assisted Content Creation:
+
+A text area for manual input or AI generation
+
+An "AI Assist" button that, when clicked, offers options like:
+
+Generate caption
+
+Suggest hashtags
+
+Optimize for engagement
+
+AI suggestions appear inline, allowing easy editing and refinement
+
+Preview and Customize:
+
+Real-time preview of how the post will look on each selected platform
+
+Platform-specific customization options (e.g., Twitter thread, Instagram carousel)
+
+Scheduling:
+
+Date and time picker for scheduling
+
+AI-suggested optimal posting times based on audience engagement data
+
+Option to add to queue or post immediately
+
+Final Review and Publish/Schedule:
+
+Overview of the post details across all selected platforms
+
+"Schedule" or "Publish Now" button
+
+3. Media Library
+Accessible from the dashboard or within the post creation flow:
+
+Grid view of uploaded images and videos
+
+Drag-and-drop upload functionality
+
+Basic editing tools (crop, filter, resize)
+
+Tagging system for easy categorization and search
+
+4. Content Calendar
+An interactive calendar view:
+
+Displays scheduled posts across all platforms
+
+Drag-and-drop functionality for rescheduling
+
+Color-coding for different platforms or content types
+
+Ability to click on a day to quickly create a new post for that date
+
+5. Drafts Management
+A list view of saved drafts:
+
+Thumbnail preview of draft content
+
+Last edited date
+
+Quick actions to edit, delete, or schedule
+
+6. AI-Powered Content Ideas
+A separate section for content ideation:
+
+"Generate Ideas" button that uses AI to suggest post topics based on:
+
+Current trends
+
+Brand guidelines
+
+Past performance data
+
+Each idea can be quickly converted into a draft post
+
+7. Bulk Upload and Scheduling
+For efficient content planning:
+
+Option to upload multiple images/videos at once
+
+Batch scheduling feature for setting up a week or month of content
+
+AI-assisted captioning for bulk uploads
+
+8. Performance Quick View
+A snapshot of recent post performance:
+
+Engagement rates for the last 5-10 posts
+
+Quick filters to view top-performing content
+
+Option to deep-dive into full analytics (linking to the Analytics section)
+
+Navigation and AI Integration
+Minimalist sidebar navigation with icons for Dashboard, Calendar, Media Library, and Drafts
+
+Persistent AI assistant icon in the bottom right corner for contextual help and suggestions
+
+Subtle AI-powered tips and optimizations appear throughout the interface, helping users improve their content strategy

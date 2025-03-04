@@ -1,0 +1,85 @@
+
+
+Recommended First-Time User Homepage
+1. Minimal, Welcoming “Get Started” Screen
+* Headline: “Welcome to Thinque Agent!” (or your chosen product name)
+* Sub-Headline (one sentence): “Your AI-powered social media partner, here to create and manage on-brand content effortlessly.”
+* Quick Blurb: A brief, friendly explanation: “Let’s get your brand set up so we can start creating posts and automating your social media.”
+Why This Works:
+* Gives the user an immediate sense of purpose and sets a warm, approachable tone.
+* Apple-like minimalism means you don’t bombard them with text—just a short, polished welcome.
+
+2. Primary Call-to-Action: “Start Setup” or “Let’s Get Started”
+* Prominent Button: e.g. “Start Setup” or “Begin Brand Setup”
+* Placement: Centered in the main panel, with a clear color contrast (e.g., a bold accent color).
+* What It Does:
+    * Launches the short, mandatory onboarding wizard (the “brand guidelines” Q&A or chat-based flow).
+    * Alternatively, it could open a multi-step “Setup Wizard” that includes:
+        1. Brand Guidelines (essential questions)
+        2. Social Account Connection (optional at this stage but typically next)
+        3. (Optional) Advanced Survey for brand voice refinement
+Why This Works:
+* A single, well-labeled button keeps the experience clean and intuitive.
+* Users know exactly how to proceed—no confusion about what to click first.
+
+3. Secondary Options for Users Who Prefer Manual Exploration
+* “I Already Have Guidelines” or “Upload Brand Guidelines”
+    * A smaller text link or button near the main CTA.
+    * If clicked, leads to the “Brand Guidelines” page, where they can upload or manually input existing guidelines.
+* “Skip for Now” or “Explore on My Own”
+    * Another small link letting users skip the wizard.
+    * If they skip, they land on a simplified dashboard with suggestions or empty states (like “No brand guidelines yet,” “No posts scheduled,” etc.).
+Why This Works:
+* Respects users who might have existing brand materials or prefer to see the rest of the tool before committing to setup.
+* Maintains a minimal interface by tucking these secondary paths into smaller, well-labeled links.
+
+4. (Optional) Quick Glance Dashboard or Next Steps Panel
+To give a sense of what the platform offers, you can display a Next Steps panel or minimal “at-a-glance” stats:
+1. Brand Guidelines: 0 (or “Not set up yet”)
+2. Connected Social Accounts: 0
+3. Scheduled Posts: 0
+4. Recent Engagement: N/A
+Underneath: A short bullet list like:
+* 1. [Set Up Your Brand Guidelines] (links to the wizard or brand page)
+* 2. [Connect Your Social Accounts]
+* 3. [Generate Your First Post]
+Why This Works:
+* Gives immediate clarity on the user’s “to-do list” and the core functionalities of the app.
+* Provides an Apple-like, guided approach with minimal clutter.
+
+5. Subtle AI Chat/Assistant Prompt (If You Have a Chat Model)
+* Small Chat Icon in a corner or side panel, labeled “AI Assistant” or “Need Help?”
+* On first load, it might do a gentle highlight (e.g., a small pulse) to indicate: “Click here anytime for help or to set up your brand guidelines.”
+Why This Works:
+* Doesn’t intrude on the user’s immediate tasks.
+* Reassures them there’s an AI helper if they get stuck or want to skip the wizard and just ask direct questions.
+
+User Flow Example
+1. User Registers & Logs In
+    * Sees the minimal “Welcome” screen with a short message, a big “Start Setup” button, and two smaller links: “Upload Guidelines” or “Skip for Now.”
+2. Clicks “Start Setup”
+    * Launches the brand guidelines Q&A wizard.
+    * They fill out the essential tone and audience info.
+    * Wizard either ends with “Would you like to connect social accounts now or later?” or simply returns them to the main dashboard upon completion.
+3. Returns to Dashboard
+    * Now sees partial stats: brand guidelines set to “Complete,” connected social accounts: “0,” etc.
+    * Possibly a CTA prompting them to “Generate your first post” or “Connect accounts.”
+4. At Any Point
+    * If they have a PDF or doc, they can either:
+        * Upload it from the wizard prompt (if not completed yet).
+        * Go to the Brand Guidelines page and click “Upload Guidelines.”
+    * The AI merges or updates the guidelines, user sees changes in real time.
+
+Why This is Effective
+1. Immediate Clarity
+    * The user sees exactly where to start—no confusion or extraneous steps.
+2. Focused Onboarding
+    * The wizard approach ensures new users provide enough data for the AI to be helpful right away, while the “Skip” link accommodates power users or those exploring.
+3. Apple-Like Minimalism
+    * A single main CTA, a short welcome blurb, and minimal links create a calm, friendly environment.
+    * Clear typography, spacing, and microcopy keep it professional.
+4. Encourages Setup Completion
+    * By showing “0 brand guidelines” or “No posts yet” in the dash, it subtly nudges users to finalize setup.
+5. Flexible Upload
+    * Users can integrate existing guidelines whenever they want—no forced path.
+    * The system is adaptive, letting them see the AI’s benefits immediately or skip around as needed.

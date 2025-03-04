@@ -1,0 +1,51 @@
+🔹 Fix: AI Should Guide Users Step-by-Step Instead of Dumping Everything at Once
+1️⃣ AI Should Show What It Found First
+💬 AI: "Here’s what I found in your document:"
+✅ Brand Mission: [Extracted Text]
+✅ Brand Values: [Extracted Text] (If AI is unsure, it suggests options)
+✅ Brand Voice: [Extracted Text]
+
+This ensures users see what AI extracted before being asked for input.
+
+2️⃣ If AI is Uncertain, It Should Ask for Clarification One Question at a Time
+💬 AI: "Some details weren’t explicitly labeled. Here’s what I inferred based on your document. You can confirm or adjust as needed."
+
+⬜ Brand Values (Only If Unclear):
+💬 "I found references to Confidence, Self-Expression, and Inclusivity. Do these reflect your brand’s values?"
+[Yes, Looks Good] [Edit]
+
+⬜ Brand Voice (Only If Unclear):
+💬 "Your document frequently uses words like ‘Bold’ and ‘Empower.’ I’d categorize your brand voice as ‘Confident, Empowering, and Body-Positive.’ Does that match?"
+[Yes, Looks Good] [Edit]
+
+🚀 Why?
+
+AI should guide users step-by-step instead of overwhelming them.
+Feels more conversational and user-friendly.
+3️⃣ If AI is Completely Uncertain, THEN It Should Ask for Manual Input
+💬 AI: "I wasn’t able to detect clear brand values. Would you like to enter them manually or take a brand exercise to refine them?"
+[Enter Values] [Take Brand Exercise]
+
+💬 AI: "I couldn’t determine your brand voice. Would you describe it as professional, playful, bold, or something else?"
+[Describe Voice] [Skip for Now]
+
+🚀 Why?
+✔ Only asks users for input when necessary.
+✔ Guides users toward an answer instead of forcing manual entry.
+
+4️⃣ Confidence Score Should Appear After Refinements, Not Before
+💬 AI: "Your brand profile is now set! Here’s a summary of what I learned:"
+
+🎯 Confidence Score: 85% ✅ (Strong match, minor refinements suggested)
+📝 Brand Summary:
+✅ Brand Voice: Confident, Empowering, Inclusive
+✅ Tone Style: Balanced – mix of storytelling & direct messaging
+✅ Key Brand Values: Confidence, Self-Expression, Inclusivity
+
+💬 AI: "Want to refine this further?"
+[Upload More Data] [Take Brand Exercise] [Continue]
+
+🚀 Why?
+✔ Confidence Score should only appear after AI has made a real effort.
+✔ Users should be able to refine further instead of being stuck with a low score.
+

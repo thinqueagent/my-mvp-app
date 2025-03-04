@@ -1,0 +1,37 @@
+Enhance AI Parsing for Brand Voice Extraction
+Modify the AI’s document parsing to ensure more accurate extraction of brand identity, voice, and tone from uploaded guidelines, websites, and documents.
+
+🔹 1️⃣ Step 1: Improve Section Recognition & Categorization
+✅ AI must identify section headers (e.g., "Mission & Vision," "Brand Values," "Brand Voice") and classify them correctly.
+✅ If headers are not explicitly labeled, AI should use keyword detection (e.g., “Our mission is,” “We believe,” “Our values are”).
+
+🔹 2️⃣ Step 2: Smart Data Validation & Fallbacks
+✅ If AI fails to find mission, values, or brand voice:
+
+Instead of returning “Unknown” or “Not Specified,” AI should ask the user:
+"I didn’t find a clear mission statement. Would you like to enter it manually?"
+✅ AI should attempt inference based on similar sections within the document.
+🔹 3️⃣ Step 3: Deep Semantic Parsing for Brand Voice & Tone
+✅ AI should analyze full sentences to extract implied tone, even if not explicitly labeled.
+✅ Example:
+
+If the document contains words like “empower,” “confidence,” “self-expression”, AI should infer that the brand voice is empowering, confident, and expressive.
+✅ AI should categorize:
+Tone of Voice (e.g., Professional, Playful, Bold, Empathetic).
+Formality Level (Casual vs. Corporate).
+Sentence Style (Short & punchy vs. Long-form storytelling).
+🔹 4️⃣ Step 4: Two-Step Extraction Process for Higher Accuracy
+✅ Step 1: Structural Parsing – Identify headings, subheadings, and section blocks.
+✅ Step 2: Semantic Parsing – Extract meaning from entire paragraphs, not just keywords.
+✅ AI should cross-reference extracted insights across sections to ensure consistency.
+
+🔹 5️⃣ Step 5: AI Feedback Loops & User Confirmation
+✅ If AI extracts partial or uncertain information, it should ask the user to validate:
+
+"I identified the following as your brand tone: Confident, Empowering, Inclusive. Does this sound right?"
+✅ If a user corrects AI, the system should learn and refine future parsing.
+🔹 Expected Outcome:
+✅ Mission & Values will no longer return "Not Specified" if present in the document.
+✅ Brand Voice & Tone will be inferred even if not explicitly labeled.
+✅ No blank fields – AI will prompt users for missing details instead of showing "unknown."
+✅ More accurate, brand-aligned AI-generated content.

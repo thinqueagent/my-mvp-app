@@ -1,0 +1,32 @@
+The AI is still failing to extract brand values and voice from uploaded documents, resulting in 0% confidence scores.
+
+1️⃣ Core Issues with Current AI Behavior
+❌ AI is not making an effort to extract or infer brand values or voice before defaulting to blank fields.
+❌ AI is not recognizing mission statements, values, or brand voice indicators even when they are present in the document.
+❌ The Confidence Score system is not functioning correctly → If AI can’t detect anything, it should still assign a partial score based on what it did recognize.
+
+2️⃣ Required Fixes
+✅ AI Must Extract & Suggest Before Defaulting to “Unknown”
+
+Instead of leaving fields blank, AI should suggest possible matches:
+Example:
+"I found references to Confidence, Self-Expression, and Inclusivity. Do these reflect your brand’s values?" [Yes] [Edit]
+"Your document frequently uses words like ‘Empower’ and ‘Bold.’ Your brand voice might be Confident, Empowering, and Body-Positive. Does this match?" [Yes] [Edit]
+✅ Fix Confidence Score Calculation
+
+AI should never return 0% unless the document is completely empty.
+If only partial data is found, it should assign a mid-range score (40-70%) and suggest refinements.
+If AI is uncertain, it should prompt:
+"Your confidence score is 75%. Want to refine this further?"
+[Upload More Data] [Take Brand Exercise] [Continue]
+✅ Improve AI’s Text Parsing & Keyword Recognition
+
+AI should not just rely on section headers but analyze full paragraphs.
+Fix: AI should recognize mission-related phrases even if the document doesn’t explicitly use "Mission" or "Brand Values" as headings.
+Example: If the document says "We believe every woman should feel confident in their swimsuit," AI should infer → Brand Value: Confidence & Body Positivity.
+3️⃣ Expected Fixes
+✔ AI proactively suggests extracted brand values/voice instead of making users manually enter everything.
+✔ Confidence Score accurately reflects partial extractions instead of defaulting to 0%.
+✔ AI improves keyword recognition to detect mission, values, and voice even when phrased differently.
+
+Let me know when these updates are applied so I can test again.
